@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 <br>
 The user can input meals in the following ways: <br>
-1.Single Food Item:
+- Single Food Item:
   <br>
   <table>
     <tr>
@@ -69,7 +69,7 @@ The user can input meals in the following ways: <br>
         </tr>
       </table>
   </table>
-2.Search for recipes within a caloric range given ingredients (using EDAMAM Recipe Search API)
+- Search for recipes within a caloric range given ingredients (using EDAMAM Recipe Search API)
   <br>
       <table>
         <tr>
@@ -78,7 +78,7 @@ The user can input meals in the following ways: <br>
           </td>
         </tr>
       </table>
-3.Search for local restaurants that have meals within a caloric range (querying Firestore database)
+- Search for local restaurants that have meals within a caloric range (querying Firestore database)
   <br>
       <table>
         <tr>
