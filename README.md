@@ -11,4 +11,4 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 <br>
 <br>
-Since this is the public version, the repo does not contain the settings json files for the Firebase project or for the cloudfunctions code. The GCP Vision API key has also been removed.
+Since this is the public version, the repo does not contain the settings json files for the Firebase project or for the cloudfunctions code. Also the API keys for the GCP Vision API, NutritionX API, and EDAMAM API have been removed.
