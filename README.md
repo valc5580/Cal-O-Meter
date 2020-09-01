@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 User authentication is implemented using Firebase Authentication
 <br>
-<img src="./Screenshots/login.png" width="400" height="800"/>
+<img src="./Screenshots/login.png" width="900" height="450"/>
 <br>
 <br>
 <br>
@@ -37,7 +37,7 @@ The user can input meals in the following ways: <br>
       </table>
     </tr>
     <tr>
-      -Search By Name
+      -Search By Name (using Nutritionix API to get nutrition info)
     </tr>
     <tr>
       <table>
@@ -49,7 +49,7 @@ The user can input meals in the following ways: <br>
       </table>
     </tr>
     <tr>
-      -Scan Barcode
+      -Scan Barcode (using Google's Android barcode scanning library)
     </tr>
     <tr>
       <table>
@@ -64,7 +64,7 @@ The user can input meals in the following ways: <br>
       </table>
     </tr>
     <tr>
-      -Take Picture
+      -Take Picture (identifies object using GCP Vision then calls Nutritionix API to get nutrition info)
     </tr>
     <tr>
       <table>
