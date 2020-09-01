@@ -79,7 +79,7 @@ The user can input meals in the following ways: <br>
         </tr>
       </table>
 - Search for local restaurants that have meals within a caloric range (querying Firestore database)
-<br>
+  <br>
       <table>
         <tr>
           <td>
