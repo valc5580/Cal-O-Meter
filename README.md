@@ -12,13 +12,81 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 <br>
 The user can input meals in the following ways: <br>
-- Single Food Item
-  - Manual Input
-  - Search By Name
-  - Scan Barcode
-  - Take Picture
+- Single Food Item:
+  <br>
+  <table>
+    <tr>
+      -Manual Input
+    </tr>
+    <tr>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/searchByName.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
+    </tr>
+    <tr>
+      -Search By Name
+    </tr>
+    <tr>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/searchByName.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
+    </tr>
+    <tr>
+      -Scan Barcode
+    </tr>
+    <tr>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/barcodePic.png" width="250" height="500"/>
+          </td>
+          <td>
+            <img src="./Screenshots/barcodePic2.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
+    </tr>
+    <tr>
+      -Take Picture
+    </tr>
+    <tr>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/compVision.png" width="250" height="500"/>
+          </td>
+          <td>
+            <img src="./Screenshots/compVision2.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
+  </table>
 - Search for recipies within a caloric range given ingredients (using EDAMAM Recipe Search API)
+<br>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/recipieSearch.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
 - Search for local restaurants that have meals within a caloric range (querying Firestore database)
+<br>
+      <table>
+        <tr>
+          <td>
+            <img src="./Screenshots/restaurant.png" width="250" height="500"/>
+          </td>
+        </tr>
+      </table>
 <br>
 <br>
 <br>
