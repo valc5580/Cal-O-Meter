@@ -64,7 +64,7 @@ The user can input meals in the following ways: <br>
       </table>
     </tr>
     <tr>
-      -Take Picture (identifies object using GCP Vision then calls Nutritionix API to get nutrition info)
+      -Take Picture (sends image to Cloud Functions endpoint, identifies object using GCP Vision, then calls Nutritionix API to get nutrition info)
     </tr>
     <tr>
       <table>
