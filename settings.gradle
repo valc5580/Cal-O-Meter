@@ -1,0 +1,2 @@
+rootProject.name='Cal-o-meter'
+include ':app'

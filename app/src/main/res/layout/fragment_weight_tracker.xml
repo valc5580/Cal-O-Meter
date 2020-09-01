@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="weight_tracker"
+    tools:context=".ui.weightTracker.WeightTrackerFragment">
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="216dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        app:layout_constraintBottom_toTopOf="@+id/weightChart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userWeight"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:digits="0123456789."
+        android:hint="Weight (lb)"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/datePicker"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addWeightButton"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/button_add_weight"
+        app:layout_constraintBottom_toTopOf="@+id/weightChart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/datePicker"
+        app:layout_constraintTop_toBottomOf="@+id/userWeight" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/weightChart"
+        android:layout_width="355dp"
+        android:layout_height="334dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

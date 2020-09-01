@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cal-o-meter</string>
+    <string name="title_home">Home</string>
+    <string name="title_weight_tracker">Weight Tracker</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="button_add_weight">Add Weight</string>
+    <string name="pick_date">Pick Date</string>
+</resources>
