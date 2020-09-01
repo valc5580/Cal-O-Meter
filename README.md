@@ -99,4 +99,19 @@ The user can input meals in the following ways: <br>
 <br>
 <br>
 <br>
+Meals planned and caloric goals info are fetched from Firestore (per user)
+<br>
+<table>
+  <tr>
+    <td>
+      <img src="./Screenshots/main.png" width="250" height="500"/>
+    </td>
+    <td>
+      <img src="./Screenshots/main2.png" width="800" height="500"/>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
 Since this is the public version, the repo does not contain the settings json files for the Firebase project or for the cloudfunctions code. Also the API keys for the GCP Vision API, Nutritionix API, and EDAMAM API have been removed.
