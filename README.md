@@ -11,6 +11,15 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+User authentication is implemented using Firebase Authentication
+<br>
+<img src="./Screenshots/login.png" width="400" height="800"/>
+<br>
+<br>
+<br>
 The user can input meals in the following ways: <br>
 - Single Food Item:
   <br>
