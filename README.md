@@ -70,7 +70,7 @@ The user can input meals in the following ways: <br>
       </table>
   </table>
 - Search for recipies within a caloric range given ingredients (using EDAMAM Recipe Search API)
-<br>
+  <br>
       <table>
         <tr>
           <td>
