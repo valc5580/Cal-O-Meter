@@ -11,6 +11,15 @@ https://www.youtube.com/watch?v=0Rc-3NSIlHU
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+User authentication is implemented using Firebase Authentication
+<br>
+<img src="./Screenshots/login.png" width="400" height="800"/>
+<br>
+<br>
+<br>
 The user can input meals in the following ways: <br>
 - Single Food Item:
   <br>
@@ -22,7 +31,7 @@ The user can input meals in the following ways: <br>
       <table>
         <tr>
           <td>
-            <img src="./Screenshots/searchByName.png" width="250" height="500"/>
+            <img src="./Screenshots/manualInput.png" width="250" height="500"/>
           </td>
         </tr>
       </table>
@@ -69,7 +78,7 @@ The user can input meals in the following ways: <br>
         </tr>
       </table>
   </table>
-- Search for recipies within a caloric range given ingredients (using EDAMAM Recipe Search API)
+- Search for recipes within a caloric range given ingredients (using EDAMAM Recipe Search API)
   <br>
       <table>
         <tr>
