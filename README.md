@@ -22,7 +22,7 @@ The user can input meals in the following ways: <br>
       <table>
         <tr>
           <td>
-            <img src="./Screenshots/searchByName.png" width="250" height="500"/>
+            <img src="./Screenshots/manualInput.png" width="250" height="500"/>
           </td>
         </tr>
       </table>
