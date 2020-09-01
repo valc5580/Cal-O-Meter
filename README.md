@@ -2,7 +2,7 @@
 Cal-O-Meter is a calorie counter android app which allows users to plan/track their meals and caloric intake, as well as find recipes and local restaurants according to their dietary needs. This was implemented using Firebase (Authentication, Firestore, Cloud Functions), GCP Vision API, Nutritionix API, and EDAMAM Recipe Search API, and Google's Android barcode scanning library. 
 <br>
 <br>
-Checkout the demo below: 
+Please watch the demo below which also explains how this was implemented:
 <br>
 <br>
 [![Demo Video](http://img.youtube.com/vi/0Rc-3NSIlHU/0.jpg)](http://www.youtube.com/watch?v=0Rc-3NSIlHU)
