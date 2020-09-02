@@ -36,11 +36,11 @@ Meals planned and caloric goals info are fetched from Firestore (per user)
 <br>
 <br>
 The user can input meals in the following ways: <br>
-- Single Food Item:
+1. Single Food Item:
   <br>
   <table>
     <tr>
-      -Manual Input
+      - Manual Input
     </tr>
     <tr>
       <table>
@@ -93,7 +93,7 @@ The user can input meals in the following ways: <br>
         </tr>
       </table>
   </table>
-- Search for recipes within a caloric range given ingredients (using EDAMAM Recipe Search API)
+2. Search for recipes within a caloric range given ingredients (using EDAMAM Recipe Search API)
   <br>
       <table>
         <tr>
@@ -102,7 +102,7 @@ The user can input meals in the following ways: <br>
           </td>
         </tr>
       </table>
-- Search for local restaurants that have meals within a caloric range (querying Firestore database)
+3. Search for local restaurants that have meals within a caloric range (querying Firestore database)
   <br>
       <table>
         <tr>
